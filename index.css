@@ -1,0 +1,26 @@
+body {
+    background-color: aqua;
+}
+table,tr,td{ 
+    border: 1px solid;
+    color: red;
+
+}
+.title{
+    color: green;
+}
+#name {
+    color: blue;
+}
+.style{
+    color: blue;
+}
+p:hover{
+    color: red;
+}
+li:first-child{
+    color: blue;
+}
+li:last-child{
+   color: hotpink;
+}
