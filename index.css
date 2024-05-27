@@ -14,7 +14,6 @@ table,tr,td{
     text-align: center;
     font-size: larger;
     text-transform: uppercase;
-    font font-weight: 800;
 }
 #name {
     color: blue;
@@ -26,6 +25,9 @@ table,tr,td{
 }
 p:hover{
     color: red;
+}
+p:active{
+    color: hotpink;
 }
 li:first-child{
     color: blue;
@@ -52,4 +54,31 @@ li:last-child{
     line-height: 50px;
     margin: 10px;
 
+}
+a{
+    color: blue;
+}
+a:active{
+    color: hotpink;
+
+}
+li{
+    display: inline;
+}
+li{
+    float: left;
+}
+a{
+    display: block;
+    padding: 14px 16px;
+    width: 60px;
+    text-align: center;
+    background-image: linear-gradient(to right,green);
+
+}
+li a:hover{
+    color: red;
+}
+.active{
+    background-color: darkmagenta;
 }
