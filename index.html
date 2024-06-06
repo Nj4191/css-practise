@@ -40,9 +40,9 @@
     </form>
     <form action="Favorite language">
         <input type="radio">
-        <label for="css">css</label><br>
+        <label for="css">css</label>
         <input type="radio">
-        <label for="Html">Html</label><br>
+        <label for="Html">Html</label>
         <input type="radio">
         <label for="">Js</label>
     </form>
@@ -57,27 +57,65 @@
 </select>
 </button>
 </form>
-    <input type="submit" name="submit" id="Submit"><br>
     <textarea name="Message" id="Message"></textarea>
     <ol class="style">
-        <li>Html</li>
-        <li>css</li>
-        <li>js</li>
+        <li>Html</li><br>
+        <li>css</li><br>
+        <li>js</li><br>
     </ol>
     <ul>
-        <li>python</li>
-        <li>c++</li>
-        <li>visual programming</li>
+        <li>python</li><br>
+        <li>c++</li><br>
+        <li>visual programming</li><br>
     </ul>
     <button type="button" onclick="alert('Hello world!')">Welcome</button>
     <div class="container">
-        <div class="container item">A</div>
-        <div class="container item">B</div>
-        <div class="container item">C</div>
-        <div class="container item">D</div>
-        <div class="container item">E</div>
-        <div class="container item">F</div>
+        <div class="container item" style="order: 5;
+        flex-grow: 1;
+        flex-shrink: ;
+        flex-basis: ;
+        ">A</div>
+        <div class="container item" style="order:2 ;
+         flex-grow: 1;
+        flex-shrink: ;
+        flex-basis: 100px;
+        ">B</div>
+        <div class="container item" style="order: 4; 
+         flex-grow:1 ;
+        flex-shrink: ;
+        flex-basis: 100px;
+        ">C</div>
+        <div class="container item" style="order: 3;
+         flex-grow: 1;
+        flex-shrink: ;
+        flex-basis:100px ;
+        ">D</div>
+        <div class="container item" style="order: 6;
+         flex-grow: 1;
+        flex-shrink: ;
+        flex-basis: 100px;
+        align-self: flex-end;
+        ";>E</div>
+        <div class="container item" style="order: 1;
+         flex-grow:1 ;
+        flex-shrink: ;
+        flex-basis: 100px;
+        align-self: flex-start;
+        ">F</div>
+    </div>
+    <div class="grid-container">
+        <div class="grid-item" style="background-color: red;
+        grid-column:kenya / span Uganda;
+        grid-row: kenya/ span uganda;
+        ">Kenya</div>
+        <div class="grid-item" style="background-color: green;">Uganda</div>
+        <div class="grid-item" style="background-color: chartreuse;">Tanzania</div>
+        <div class="grid-item" style="background-color: blue;">Ethiopia</div>
+        <div class="grid-item" style="background-color: brown;">Jamaica</div>
+        <div class="grid-item" style="background-color: darkorange;">Russia</div>
+
     </div>
  <a href="https://www.youtube.com/">click Me</a><br>
+ <input type="submit" name="submit" id="Submit" class="submit-button">
 </body>
 </html>
