@@ -1,5 +1,5 @@
 body {
-    background: rgb(87, 203, 220);
+    background: rgb(222, 221, 218);
     text-transform: capitalize;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -15,10 +15,10 @@ table,tr,td{
     font-size: larger;
     text-transform: uppercase;
 }
-#name {
+/*#name {
     color: blue;
     background-image: linear-gradient(to right,red,blue);
-}
+}*/
 .style{
     color:rgba(141, 227, 182);
     background: radial-gradient(red,steelblue 20%);
@@ -118,11 +118,42 @@ ul.a {
     font-weight: 600;
     font-size: 20px;
     color: white;
-    transform: translate(50px,30px);
+    transform: translate(50px 30px);
     background-color: blue;
     /*transition: background 2s ease-in-out 1s;*/
 }
 .submit-button:hover{
     color:black;
     padding: 20px 30px;
+}
+#name{
+    animation-name: red-to-black;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+}
+#coders{
+    animation-name: red-to-black;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+   /* animation-delay: 2s;*/
+    animation-iteration-count: 2;
+    animation-direction: reverse;
+}
+@keyframes red-to-black{
+    0%{
+        background-color: red;
+
+        transform: translate(0px, 0px);
+    }
+    50%{
+        background-color: yellow;
+        transform: translate(10px, 10px);
+    }
+   100%{
+    background-color: black;
+    transform: translate(20px, 20px);
+   }
+
 }
