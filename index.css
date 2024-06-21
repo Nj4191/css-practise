@@ -130,8 +130,9 @@ ul.a {
     animation-name: red-to-black;
     animation-duration: 4s;
     animation-timing-function: linear;
-    animation-delay: 2s;
+    /*animation-delay: 2s;*/
     animation-iteration-count: 2;
+    animation-direction: alternate ;
 }
 #coders{
     animation-name: red-to-black;
@@ -139,7 +140,7 @@ ul.a {
     animation-timing-function: linear;
    /* animation-delay: 2s;*/
     animation-iteration-count: 2;
-    animation-direction: reverse;
+    animation-direction: alternate;
 }
 @keyframes red-to-black{
     0%{
